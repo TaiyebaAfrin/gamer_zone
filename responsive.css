@@ -66,8 +66,11 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    /* .menu-nav-extra{
+    .btn-nine-icon{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    } */
+        grid-template-columns: repeat(3, .50fr);
+        text-align: center;
+        justify-content: center;
+    }
+    
 }

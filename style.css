@@ -264,7 +264,7 @@
 /* button icon start */
 .btn-icon-container{
     max-width: 1400px;
-    max-height: 700px;
+    min-height: 200px;
     margin: auto;
 
     
@@ -274,13 +274,15 @@
     grid-template-columns: repeat(5, .50fr);
     text-align: center;
     justify-content: center;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    background:  rgba(255, 66, 165, 0.03);
+    margin: 20px 60px;
 }
 
 .btn-img{
     display: flex;
     border-radius: 50px;
     background: #ffffff;
+    margin-top: 30px;
 
 }
 .btn-img img{
@@ -296,10 +298,6 @@
     padding-top: 20px;
     padding-left: 20px;
 }
-
-
-
-
 /* button icon end */
 /* Footer */
 .footer-container{
