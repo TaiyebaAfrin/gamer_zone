@@ -37,5 +37,37 @@
     .banner-image img{
         height: 400px;
     }
-
+    .cards-item-container{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .single-card-text-image{
+        flex-direction: column;
+        margin-top: 1000px;
+        justify-content: center;
+    }
+    .single-card-image > img{
+        width: 250px;
+        height: 250px;
+    
+    }
+    .small-card-image > img{
+        width: 100px;
+        height: 100px;
+        top: 190px;
+        left: 190px;
+    }
+    .single-card-text {
+        margin-top: 280px;
+        padding: 0;
+    }
+    .menu-nav{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* .menu-nav-extra{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } */
 }

@@ -140,3 +140,233 @@
     border: none;
 
 }
+
+/* banner section end */
+/* Card Container start */
+
+.card-container{
+    max-width: 1400px;
+    max-height: 700px;
+    margin: auto;
+}
+.card-details-container{
+    margin: 50px 30px;
+}
+.card-text h1{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.card-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.card-text p{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.cards-item-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card > img{
+    width: 300px;
+    height: 300px;
+}
+
+.card > p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* Card Container end */
+/* single card start */
+.single-card-contaioner{
+    max-width: 1400px;
+    max-height: 700px;
+    margin: auto;
+}
+.single-card-text-image{
+    margin: 20px 30px;
+    display: flex;
+}
+
+.single-card-contaioner{
+    max-width: 1400px;
+    max-height: 700px;
+    margin: 100px 30px 80px 30px;
+
+}
+.single-card-image {
+    width: 100%;
+    margin-right: 200px;
+
+
+}
+
+.single-card-image > img{
+    width: 500px;
+    height: 450px;
+    position: absolute;
+
+
+}
+.small-card-image > img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 290px;
+    left: 330px;
+
+}
+.single-card-text {
+    padding: 150px 60px;
+
+}
+.single-card-text h1{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+}
+.single-card-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.single-card-text p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* single card end */
+/* button icon start */
+.btn-icon-container{
+    max-width: 1400px;
+    max-height: 700px;
+    margin: auto;
+
+    
+}
+.btn-nine-icon{
+    display: grid;
+    grid-template-columns: repeat(5, .50fr);
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.btn-img{
+    display: flex;
+    border-radius: 50px;
+    background: #ffffff;
+
+}
+.btn-img img{
+    width: 50px;
+    height: 50px;
+}
+.btn-img:hover{
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    background: #FFF;
+}
+.btn-img p{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+/* button icon end */
+/* Footer */
+.footer-container{
+    background: #0B0223;
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+}
+.logo-container-nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.logo-container-nav p{
+    color: #ffffff;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+}
+.logo-container-nav span{
+    color: var(--primary-color);
+}
+.menu-nav{
+    gap: 100px;
+    padding: 30px 0;
+}
+.menu-nav a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.menu-nav-extra a{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+
+
+}
+
+.footer-icon i{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+/* footer end */
