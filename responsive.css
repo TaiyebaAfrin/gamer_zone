@@ -41,10 +41,15 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+
+    }
+    .single-card-contaioner {
+        min-height: 896px;
+
     }
     .single-card-text-image{
         flex-direction: column;
-        margin-top: 1000px;
+        margin-top: 1230px;
         justify-content: center;
     }
     .single-card-image > img{
@@ -71,6 +76,8 @@
         grid-template-columns: repeat(3, .50fr);
         text-align: center;
         justify-content: center;
+        margin: 45px 0px;
+
     }
     
 }
